@@ -625,16 +625,16 @@
         },
         {
             "name": "gravity-legal/phpsdk",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/project-david/phpsdk.git",
-                "reference": "20c0f204f1af2a533510fe4616ffc0689d9ff414"
+                "reference": "e01eefdb2c402d321b09d085eaf5e15c5f7cbac9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/project-david/phpsdk/zipball/20c0f204f1af2a533510fe4616ffc0689d9ff414",
-                "reference": "20c0f204f1af2a533510fe4616ffc0689d9ff414",
+                "url": "https://api.github.com/repos/project-david/phpsdk/zipball/e01eefdb2c402d321b09d085eaf5e15c5f7cbac9",
+                "reference": "e01eefdb2c402d321b09d085eaf5e15c5f7cbac9",
                 "shasum": ""
             },
             "require": {
@@ -653,7 +653,7 @@
                         "GravityLegal\\GravityLegalAPI\\GravityLegalServiceProvider"
                     ],
                     "aliases": {
-                        "ChuckNorris": "GravityLegal\\GravityLegalAPI\\Facades\\GravityLegal"
+                        "GravityLegal": "GravityLegal\\GravityLegalAPI\\Facades\\GravityLegal"
                     }
                 }
             },
@@ -675,9 +675,9 @@
             "description": "PHP SDK for GravityLegalAPI",
             "support": {
                 "issues": "https://github.com/project-david/phpsdk/issues",
-                "source": "https://github.com/project-david/phpsdk/tree/1.0.2"
+                "source": "https://github.com/project-david/phpsdk/tree/1.0.3"
             },
-            "time": "2021-04-28T17:58:20+00:00"
+            "time": "2021-04-28T19:01:34+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

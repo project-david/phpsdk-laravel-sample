@@ -29,5 +29,7 @@ Route::get('/', function () {
 return view('welcome', [
         'customer' => json_encode($gService->FindCustomer("Manoj's Firm"), JSON_PRETTY_PRINT),
         'matter' => json_encode($gService->GetMatter("23c47c88-a287-4962-bf92-6ff30798377c"), JSON_PRETTY_PRINT),
+        'payment' => json_encode($gService->GetPaymentById('71dca067-c1be-423d-a3a3-dba2d9dcc3cd')),
+        'paymentTxn' => json_encode($gService->FetchPaymentTxn($gService->GetPaymentById('71dca067-c1be-423d-a3a3-dba2d9dcc3cd'))),
     ]);
 });

@@ -55,6 +55,18 @@
                         {{ $matter }}  
                     </div></td>
                     </tr>
+                    <tr><td>Payment</td>
+                    <td>
+                    <div>
+                        {{ $payment }}  
+                    </div></td>
+                    </tr>
+                    <tr><td>Payment Transaction</td>
+                    <td>
+                    <div>
+                        {{ $paymentTxn }}  
+                    </div></td>
+                    </tr>
                     <tr><td>Version</td>
                     <td>
                     <div>

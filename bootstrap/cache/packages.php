@@ -32,7 +32,7 @@
     ),
     'aliases' => 
     array (
-      'ChuckNorris' => 'GravityLegal\\GravityLegalAPI\\Facades\\GravityLegal',
+      'GravityLegal' => 'GravityLegal\\GravityLegalAPI\\Facades\\GravityLegal',
     ),
   ),
   'laravel/sail' => 
